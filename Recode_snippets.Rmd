@@ -44,7 +44,7 @@ test.words <- rep(c("cat", "dog", "coffee", "tea", "tee", "banter"), times = c(3
 test.words
 ```
 
-A two-column dataframe with translations (target items are under replace \$English to be replaced by replace \$Finnish items):
+A two-column dataframe with translations (target items are under *replace$English* to be replaced by *replace$Finnish* items):
 
 ```{r, echo=FALSE}
 replace <- data.frame(English = c("cat", "dog", "coffee", "tea", "tee"),
